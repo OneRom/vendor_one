@@ -72,9 +72,9 @@ PRODUCT_PACKAGE_OVERLAYS += \
 -include vendor/extra/product.mk
 
 # Bootanim
--include vendor/onerom/configs/bootanim.mk
+include vendor/onerom/configs/bootanim.mk
 
 # Version
--include vendor/onerom/configs/version.mk
+include vendor/onerom/configs/version.mk
 
 
