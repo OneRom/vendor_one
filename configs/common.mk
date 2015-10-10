@@ -21,8 +21,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
 # OneRom init file
-PRODUCT_COPY_FILES += \
-    vendor/onerom/prebuilt/common/etc/init.local.rc:root/init.onerom.rc
+#PRODUCT_COPY_FILES += \
+#    vendor/onerom/prebuilt/common/etc/init.local.rc:root/init.onerom.rc
 
 # init.d support
 PRODUCT_COPY_FILES += \
