@@ -22,13 +22,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # OneRom init file
 #PRODUCT_COPY_FILES += \
-#    vendor/onerom/prebuilt/common/etc/init.local.rc:root/init.onerom.rc
+#    vendor/orm/prebuilt/common/etc/init.local.rc:root/init.onerom.rc
 
 # init.d support
 PRODUCT_COPY_FILES += \
-    vendor/onerom/prebuilt/common/bin/sysinit:system/bin/sysinit \
-    vendor/onerom/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/onerom/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
+    vendor/orm/prebuilt/common/bin/sysinit:system/bin/sysinit \
+    vendor/orm/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
+    vendor/orm/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -66,15 +66,15 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/onerom/overlay/common
+    vendor/orm/overlay/common
 
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
 
 # Bootanim
-include vendor/onerom/configs/bootanim.mk
+include vendor/orm/configs/bootanim.mk
 
 # Version
-include vendor/onerom/configs/version.mk
+include vendor/orm/configs/version.mk
 
 

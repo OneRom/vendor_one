@@ -1,3 +1,3 @@
-include vendor/onerom/configs/common.mk
+include vendor/orm/configs/common.mk
 
 

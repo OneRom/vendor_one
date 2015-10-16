@@ -1,2 +1,2 @@
 BOARD_SEPOLICY_DIRS += \
-    vendor/onerom/sepolicy
+    vendor/orm/sepolicy
