@@ -15,6 +15,6 @@ ORM_MOD_VERSION := OneRom-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PR
 
 PRODUCT_PROPERTY_OVERRIDES += \
     BUILD_DISPLAY_ID=$(BUILD_ID) \
-    ro.onerom.version=$(ORM_VERSION) \
+    ro.orm.version=$(ORM_VERSION) \
     ro.modversion=$(ORM_MOD_VERSION) \
-    ro.onerom.buildtype=$(ORM_BUILD_TYPE)
+    ro.orm.buildtype=$(ORM_BUILD_TYPE)
